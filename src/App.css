@@ -1,0 +1,8 @@
+.App {
+  font-family: "Montserrat", sans-serif;
+}
+.vertical-divider {
+  width: 2px;
+  height: auto;
+  background-color: whitesmoke;
+}
