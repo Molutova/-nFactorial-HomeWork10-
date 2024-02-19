@@ -1,4 +1,5 @@
 import { COMMENTS, KZ_IMG_PATH, RETWEETS, LIKES, SHARE } from "../image";
+
 export default function Tweet(tweet) {
   return (
     <div className="mx-3" style={{ borderBottom: "2px solid whitesmoke" }}>
@@ -7,7 +8,7 @@ export default function Tweet(tweet) {
       </p>
       <div className="d-flex">
         <img
-          src={KZ_IMG_PATH}
+          src={tweet.img}
           style={{ width: 50, height: 50, borderRadius: 50 }}
         />
         <div className="mx-3">
